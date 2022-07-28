@@ -30,7 +30,7 @@
         background-color: #293241;
         border-radius: 1.2vw;
         display: block;
-        z-index: 101;
+        z-index: 3147483000;
     }
     
     .apps {
@@ -43,7 +43,7 @@
         background-color: #293241;
         border-radius: 1.2vw;
         display: none;
-        z-index: 101;
+        z-index: 3147483000;
     }
     
     .menu h1 {
@@ -53,12 +53,12 @@
         margin-left: 1vw;
         color: #ee6c4d;
         font-weight: 900;
-        z-index: 102;
+        z-index: 3147483020;
     }
     
     .menu h1 span {
         color: #e0fbfc;
-        z-index: 102;
+        z-index: 3147483020;
     }
     
     .menu p {
@@ -69,12 +69,12 @@
         margin-left: 1.2%;
         font-weight: 900;
         text-transform:uppercase;
-        z-index: 102;
+        z-index: 3147483020;
     }
     
     .menu p span {
         color: #e0fbfc;
-        z-index: 102;
+        z-index: 3147483020;
     }
     
     .menu .material-icons {
@@ -86,12 +86,12 @@
         border-radius: 10px;
         cursor: pointer;
         user-select: none;
-        z-index: 102;
+        z-index: 3147483020;
     }
     
     .menu. material-icons.md-2{
         right: 6%;
-        z-index: 102;
+        z-index: 3147483020;
     }
     </style>
   `
