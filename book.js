@@ -18,6 +18,7 @@
 
     .overlay {
         margin:0;
+        z-index: 100;
     }
     
     .menu {
