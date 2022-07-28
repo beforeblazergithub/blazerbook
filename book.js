@@ -18,7 +18,6 @@
 
     .overlay {
         margin:0;
-        z-index: 100;
     }
     
     .menu {
@@ -31,6 +30,7 @@
         background-color: #293241;
         border-radius: 1.2vw;
         display: block;
+        z-index: 101;
     }
     
     .apps {
@@ -43,22 +43,25 @@
         background-color: #293241;
         border-radius: 1.2vw;
         display: none;
+        z-index: 101;
     }
     
-    h1 {
+    .menu h1 {
         margin:0;
         font-size: 5vw;
         font-family: 'Montserrat', sans-serif;
         margin-left: 1vw;
         color: #ee6c4d;
         font-weight: 900;
+        z-index: 102;
     }
     
-    h1 span {
+    .menu h1 span {
         color: #e0fbfc;
+        z-index: 102;
     }
     
-    p {
+    .menu p {
         margin:0;
         font-family: 'Montserrat', sans-serif;
         color: #ee6c4d;
@@ -66,13 +69,15 @@
         margin-left: 1.2%;
         font-weight: 900;
         text-transform:uppercase;
+        z-index: 102;
     }
     
-    p span {
+    .menu p span {
         color: #e0fbfc;
+        z-index: 102;
     }
     
-    .material-icons {
+    .menu .material-icons {
         position: absolute;
         color: #ee6c4d;
         font-size: 4vw;
@@ -81,10 +86,12 @@
         border-radius: 10px;
         cursor: pointer;
         user-select: none;
+        z-index: 102;
     }
     
-    .material-icons.md-2{
+    .menu. material-icons.md-2{
         right: 6%;
+        z-index: 102;
     }
     </style>
   `
