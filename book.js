@@ -102,44 +102,44 @@
   })();
 
   document.onkeyup = function(e) {
-    if (e.ctrlKey && e.which == 192) {
-     if (document.getElementById('menu').style.display == 'none') {
-      openMenu()
-     } else {
-      close()
-     }
-    } else if (e.which == 192) {
-     if (document.getElementById('menu').style.display == 'none') {
-      openMenu()
-     } else {
-      close()
-     }
-    }
-  };
+       if (e.ctrlKey && e.which == 86) {
+        if (document.getElementById('menu').style.display == 'none') {
+         openMenu()
+        } else {
+         close()
+        }
+       } else if (e.which == 86) {
+        if (document.getElementById('menu').style.display == 'none') {
+         openMenu()
+        } else {
+         close()
+        }
+       }
+     };
 
-  var closeButton = document.getElementById('close');
-  var appButton = document.getElementById('openApps');
- 
-  closeButton.onclick = function(){close()};
-  appButton.onclick = function(){openApps()};
- 
-  function close() {
-      document.getElementById('menu').style.display = 'none';
-      document.getElementById('apps').style.display = 'none';
-  }
- 
-  function openApps() {
-      if (document.getElementById('apps').style.display == 'block') {
+    var closeButton = document.getElementById('close');
+    var appButton = document.getElementById('openApps');
+
+    closeButton.onclick = function(){close()};
+    appButton.onclick = function(){openApps()};
+
+    function close() {
+        document.getElementById('menu').style.display = 'none';
         document.getElementById('apps').style.display = 'none';
-      } else {
-        document.getElementById('apps').style.display = 'block';
-      }
-  }
- 
-  function closeApps() {
-      document.getElementById('apps').style.display = 'none';
-  }
- 
-  function openMenu() {
-      document.getElementById('menu').style.display = 'block';
-  }
+    }
+
+    function openApps() {
+        if (document.getElementById('apps').style.display == 'block') {
+          document.getElementById('apps').style.display = 'none';
+        } else {
+          document.getElementById('apps').style.display = 'block';
+        }
+    }
+
+    function closeApps() {
+        document.getElementById('apps').style.display = 'none';
+    }
+
+    function openMenu() {
+        document.getElementById('menu').style.display = 'block';
+    }
