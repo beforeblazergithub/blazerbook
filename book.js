@@ -89,7 +89,7 @@
         z-index: 3147483020;
     }
     
-    .menu. material-icons.md-2{
+    .menu .material-icons.md-2{
         right: 6%;
         z-index: 3147483020;
     }
